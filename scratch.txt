@@ -1,2 +1,5 @@
 This is the file which I'll just add things to to explore the behaviour of the extension.
 
+This paragraph should be the first to be added by GitDoc; I'll save it and leave
+VSCode open so GitDoc can commit it after the specified delay (10 seconds for
+this repo).
