@@ -5,3 +5,10 @@ VSCode open so GitDoc can commit it after the specified delay (10 seconds for
 this repo).
 
 Yep, that seems to have worked ok.  Good!
+
+Now I'll write this paragraph, save the file, wait for the git timeline in the
+Explorer sidebar to show "Uncommitted changes", and then quit VSCode.  My
+understanding is that GitDoc *should* commit this change at that moment because
+the setting `gitdoc.commitOnClose` is `true` (that's its default but I've also
+explicitly set it as such in this repo's `.vscode/settings.json`) — but my
+experience is that that won't in fact happen.
