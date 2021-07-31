@@ -1,0 +1,8 @@
+{
+    "gitdoc.autoCommitDelay": 10000,
+    "gitdoc.autoPull": "off",
+    "gitdoc.autoPush": "off",
+    "gitdoc.commitOnClose": true,
+    "gitdoc.enabled": true,
+    "gitdoc.pullOnOpen": false,
+}
